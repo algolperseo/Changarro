@@ -327,13 +327,6 @@ class modelo(object):
             u'Tabasco', u'Tamaulipas', u'Tlaxcala', u'Veracruz', u'Yucatán',
                  u'Zacatecas')
     #
-    DIRECCION_TIENDA = Direccion(1, u'Flavio A. Paniagua', u'100c', u' ',
-                 'uGuadalupe', u"San Cristóbal de las Casas",
-                  29230, u"San Cristóbal de las Casas", u'Chiapas', u"México")
-    #
-    TIENDA = Persona(1, u"Farmacia", u"Los Remedios", "", 1,
-            u"9670000000", u"", u"juan@etelsis.com", u"rfc", u"credencial", u"cédula",
-            u"curp", 1, datetime.now(), u"Moral")
     #
     PUBLICO_EN_GENERAL = Persona(2, u"Público", u"en General", u"Mostrador",
                 1, u"", u"", u"",
